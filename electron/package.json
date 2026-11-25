@@ -1,0 +1,28 @@
+{
+  "name": "ma-mevarchim",
+  "productName": "מה מברכים",
+  "version": "1.0.0",
+  "description": "מה מברכים – איזו ברכה מברכים על אוכל ושתייה",
+  "author": "ibfix",
+  "main": "main.js",
+  "desktopLevel": 1,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.5.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.ibfix.mamevarchim",
+    "productName": "MaMevarchim",
+    "directories": { "output": "dist", "buildResources": "." },
+    "files": ["main.js", "preload.js", "package.json"],
+    "extraResources": [{ "from": "app", "to": "app" }],
+    "icon": "icon.png",
+    "win": { "target": "portable", "artifactName": "ma-mevarchim.exe" },
+    "portable": { "artifactName": "ma-mevarchim.exe" },
+    "linux": { "target": "AppImage", "artifactName": "ma-mevarchim.AppImage", "category": "Education" },
+    "publish": null
+  }
+}

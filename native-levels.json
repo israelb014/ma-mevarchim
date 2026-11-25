@@ -1,0 +1,5 @@
+{
+  "android": 1,
+  "desktop": 1,
+  "_comment": "Bump android when native Android code/plugins/permissions change, desktop when the Electron shell changes. Users then see an 'install new version' banner."
+}

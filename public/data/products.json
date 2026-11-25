@@ -1,0 +1,5205 @@
+{
+ "categories": {
+  "fruits": "פירות",
+  "dried": "פירות יבשים ואגוזים",
+  "vegetables": "ירקות וקטניות",
+  "bread": "לחם ומאפי לחם",
+  "pastries": "מאפים, עוגות ועוגיות",
+  "grains": "פסטה, דגנים ודייסות",
+  "rice": "אורז",
+  "cereals": "דגני בוקר",
+  "drinks": "משקאות",
+  "dairy": "מוצרי חלב וביצים",
+  "meat": "בשר, עוף ודגים",
+  "snacks": "חטיפים",
+  "sweets": "ממתקים",
+  "spreads": "ממרחים וסלטים",
+  "cooked": "מאכלים מבושלים"
+ },
+ "products": [
+  {
+   "id": "apple",
+   "name": "תפוח עץ",
+   "synonyms": [
+    "תפוח",
+    "תפוחים",
+    "תפוח ירוק",
+    "תפוח אדום",
+    "גרני סמית",
+    "פינק ליידי"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pear",
+   "name": "אגס",
+   "synonyms": [
+    "אגסים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "peach",
+   "name": "אפרסק",
+   "synonyms": [
+    "אפרסקים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "nectarine",
+   "name": "נקטרינה",
+   "synonyms": [
+    "נקטרינות"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "plum",
+   "name": "שזיף",
+   "synonyms": [
+    "שזיפים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "apricot",
+   "name": "משמש",
+   "synonyms": [
+    "משמשים",
+    "מישמש"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cherry",
+   "name": "דובדבן",
+   "synonyms": [
+    "דובדבנים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "orange",
+   "name": "תפוז",
+   "synonyms": [
+    "תפוזים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "clementine",
+   "name": "קלמנטינה",
+   "synonyms": [
+    "קלמנטינות",
+    "מנדרינה",
+    "מנדרינות",
+    "אור",
+    "הדר"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "grapefruit",
+   "name": "אשכולית",
+   "synonyms": [
+    "אשכוליות"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pomelo",
+   "name": "פומלה",
+   "synonyms": [
+    "פומלית",
+    "פומלו"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "kumquat",
+   "name": "קומקוואט",
+   "synonyms": [
+    "קומקווט"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mango",
+   "name": "מנגו",
+   "synonyms": [],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "kiwi",
+   "name": "קיווי",
+   "synonyms": [
+    "קיוי"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "avocado",
+   "name": "אבוקדו",
+   "synonyms": [],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "persimmon",
+   "name": "אפרסמון",
+   "synonyms": [
+    "אפרסמונים",
+    "שרון"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "lychee",
+   "name": "ליצ'י",
+   "synonyms": [
+    "ליצי"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "guava",
+   "name": "גויאבה",
+   "synonyms": [
+    "גויאבות"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "loquat",
+   "name": "שסק",
+   "synonyms": [
+    "שסקים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "feijoa",
+   "name": "פיג'ויה",
+   "synonyms": [
+    "פיגויה"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mulberry",
+   "name": "תות עץ",
+   "synonyms": [
+    "תותי עץ"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "תות עץ גדל על עץ של ממש – לכן העץ, לא כמו תות שדה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "blueberry",
+   "name": "אוכמניות",
+   "synonyms": [
+    "אוכמנית",
+    "בלובריז"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "האוכמנית גדלה על שיח שענפיו נשארים משנה לשנה ומוציאים פרי – ולכן נחשבת עץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "grapes",
+   "name": "ענבים",
+   "synonyms": [
+    "ענב",
+    "ענבים ירוקים",
+    "ענבים אדומים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "tree-fruit",
+   "why": "ענבים הם פרי העץ ומשבעת המינים, ולכן הברכה האחרונה היא על העץ. רק על היין ומיץ הענבים מברכים הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "figs",
+   "name": "תאנים",
+   "synonyms": [
+    "תאנה"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "tree-fruit",
+   "why": "תאנה היא פרי העץ ומשבעת המינים, ולכן הברכה האחרונה על העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pomegranate",
+   "name": "רימון",
+   "synonyms": [
+    "רימונים",
+    "גרעיני רימון"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "tree-fruit",
+   "why": "רימון הוא פרי העץ ומשבעת המינים, ולכן הברכה האחרונה על העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dates",
+   "name": "תמרים",
+   "synonyms": [
+    "תמר",
+    "מג'הול",
+    "מגהול",
+    "דקל נור"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "tree-fruit",
+   "why": "תמר הוא פרי העץ ומשבעת המינים (\"דבש\" שבפסוק), ולכן הברכה האחרונה על העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "olives",
+   "name": "זיתים",
+   "synonyms": [
+    "זית",
+    "זיתים ירוקים",
+    "זיתים שחורים",
+    "זיתי קלמטה"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "tree-fruit",
+   "why": "זית הוא פרי העץ ומשבעת המינים, וגם כבוש הוא נשאר פרי – לכן העץ ועל העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "banana",
+   "name": "בננה",
+   "synonyms": [
+    "בננות"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "צמח הבננה אינו עץ – הגזע שלו מתחלף ואינו מוציא פרי שוב – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיף ג",
+   "doubt": false
+  },
+  {
+   "id": "papaya",
+   "name": "פפאיה",
+   "synonyms": [
+    "פפיה"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "יש ספק אם צמח הפפאיה נחשב עץ, ולכן מברכים האדמה שפוטרת בכל מקרה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "pineapple",
+   "name": "אננס",
+   "synonyms": [],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "האננס גדל על צמח נמוך שאינו עץ – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "strawberry",
+   "name": "תות שדה",
+   "synonyms": [
+    "תותים",
+    "תות",
+    "תותי שדה"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "תות שדה גדל על צמח נמוך שאינו עץ – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "watermelon",
+   "name": "אבטיח",
+   "synonyms": [
+    "אבטיחים"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "melon",
+   "name": "מלון",
+   "synonyms": [
+    "מלונים",
+    "מלון כתום",
+    "גליה"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "raspberry",
+   "name": "פטל",
+   "synonyms": [
+    "פטל אדום",
+    "ראסברי"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "יש מחלוקת אם שיח הפטל נחשב עץ. בספק – האדמה פוטרת.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": true
+  },
+  {
+   "id": "passion-fruit",
+   "name": "פסיפלורה",
+   "synonyms": [
+    "שעונית",
+    "פסיפלורות"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "יש מחלוקת אם הפסיפלורה (צמח מטפס) נחשבת עץ. בספק – האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": true
+  },
+  {
+   "id": "dragon-fruit",
+   "name": "פיטאיה",
+   "synonyms": [
+    "פרי הדרקון",
+    "דרגון פרוט"
+   ],
+   "category": "fruits",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "הפיטאיה גדלה על קקטוס, ויש מחלוקת אם הוא נחשב עץ. בספק – האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": true
+  },
+  {
+   "id": "sabra",
+   "name": "צבר",
+   "synonyms": [
+    "צברים",
+    "סברס"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "יש מחלוקת אם הצבר (קקטוס) נחשב עץ. בספק – האדמה פוטרת.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": true
+  },
+  {
+   "id": "fruit-salad",
+   "name": "סלט פירות",
+   "synonyms": [
+    "סלט פרי",
+    "פירות חתוכים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "kdima",
+   "why": "מברכים העץ על פרי עץ, ואחר כך האדמה על פרי האדמה שבסלט (כמו בננה או מלון).",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"א סעיפים א–ד",
+   "doubt": false
+  },
+  {
+   "id": "baked-apple",
+   "name": "תפוח אפוי",
+   "synonyms": [
+    "תפוחים אפויים"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "compote",
+   "name": "קומפוט",
+   "synonyms": [
+    "לפתן",
+    "לפתן פירות"
+   ],
+   "category": "fruits",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "פירות מבושלים נשארים פרי, וגם המים שבושלו בהם קיבלו את ברכת הפרי.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "raisins",
+   "name": "צימוקים",
+   "synonyms": [
+    "צימוק"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "shinui-tzura",
+   "why": "צימוקים הם ענבים מיובשים – משבעת המינים, לכן העץ ועל העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dried-figs",
+   "name": "תאנים מיובשות",
+   "synonyms": [
+    "תאנה מיובשת",
+    "תאנים יבשות"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "shinui-tzura",
+   "why": "תאנה מיובשת נשארת פרי משבעת המינים.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dried-apricot",
+   "name": "משמש מיובש",
+   "synonyms": [
+    "משמש יבש",
+    "מישמש מיובש",
+    "משמשים מיובשים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "prunes",
+   "name": "שזיפים מיובשים",
+   "synonyms": [
+    "שזיף מיובש",
+    "פרונס"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dried-mango",
+   "name": "מנגו מיובש",
+   "synonyms": [
+    "מנגו יבש"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dried-cranberries",
+   "name": "חמוציות מיובשות",
+   "synonyms": [
+    "חמוציות",
+    "קרנברי"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "החמוציות גדלות על שיח שנשאר משנה לשנה; ייבוש לא משנה את הברכה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "dried-banana",
+   "name": "בננה מיובשת",
+   "synonyms": [
+    "צ'יפס בננה"
+   ],
+   "category": "dried",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "apple-chips",
+   "name": "צ'יפס תפוחים",
+   "synonyms": [
+    "תפוחים מיובשים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "date-paste",
+   "name": "ממרח תמרים",
+   "synonyms": [
+    "עיסת תמרים",
+    "תמרים טחונים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "etz",
+   "rule_id": "crushed",
+   "why": "תמרים שנמעכו לעיסה נשארים פרי העץ – כך פסק השולחן ערוך במפורש.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "almonds",
+   "name": "שקדים",
+   "synonyms": [
+    "שקד",
+    "שקדים קלויים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "walnuts",
+   "name": "אגוזי מלך",
+   "synonyms": [
+    "אגוז מלך",
+    "אגוזים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pecans",
+   "name": "פקאן",
+   "synonyms": [
+    "אגוזי פקאן",
+    "פקאנים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "hazelnuts",
+   "name": "אגוזי לוז",
+   "synonyms": [
+    "לוז",
+    "אגוז לוז"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pistachios",
+   "name": "פיסטוקים",
+   "synonyms": [
+    "פיסטוק",
+    "פיסטוקי חלב"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "chestnuts",
+   "name": "ערמונים",
+   "synonyms": [
+    "ערמון"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "macadamia",
+   "name": "מקדמיה",
+   "synonyms": [
+    "אגוזי מקדמיה"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "coconut",
+   "name": "קוקוס",
+   "synonyms": [
+    "אגוז קוקוס",
+    "קוקוס טרי"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "carob",
+   "name": "חרוב",
+   "synonyms": [
+    "חרובים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "tree-fruit",
+   "why": "פרי שגדל על עץ שגזעו נשאר משנה לשנה – לכן בורא פרי העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cashew",
+   "name": "קשיו",
+   "synonyms": [
+    "אגוזי קשיו"
+   ],
+   "category": "dried",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "יש מחלוקת אם הקשיו נחשב פרי העץ, כי הוא גרעין שיוצא מחוץ לפרי. בספק – האדמה פוטרת.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": true
+  },
+  {
+   "id": "peanuts",
+   "name": "בוטנים",
+   "synonyms": [
+    "בוטן",
+    "בוטנים קלויים",
+    "בוטנים בקליפה"
+   ],
+   "category": "dried",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "בוטנים גדלים בתוך האדמה על צמח חד-שנתי – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "sunflower-seeds",
+   "name": "גרעינים שחורים",
+   "synonyms": [
+    "גרעיני חמנייה",
+    "גרעינים",
+    "גרעיני חמניה"
+   ],
+   "category": "dried",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "pumpkin-seeds",
+   "name": "גרעינים לבנים",
+   "synonyms": [
+    "גרעיני דלעת",
+    "גרעינים לבנים קלויים"
+   ],
+   "category": "dried",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "sugared-almonds",
+   "name": "שקדים מסוכרים",
+   "synonyms": [
+    "שקדים מצופים",
+    "שקדי סוכר"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "השקד הוא העיקר וציפוי הסוכר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "trail-mix",
+   "name": "תערובת פירות יבשים",
+   "synonyms": [
+    "מיקס אגוזים",
+    "פיצוחים"
+   ],
+   "category": "dried",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "kdima",
+   "why": "מברכים העץ על פרי עץ (שקדים, אגוזים) והאדמה על בוטנים או גרעינים, כל אחד בנפרד.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"א סעיפים א–ד",
+   "doubt": false
+  },
+  {
+   "id": "tomato",
+   "name": "עגבנייה",
+   "synonyms": [
+    "עגבניה",
+    "עגבניות"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "cherry-tomatoes",
+   "name": "עגבניות שרי",
+   "synonyms": [
+    "שרי",
+    "עגבניית שרי"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "cucumber",
+   "name": "מלפפון",
+   "synonyms": [
+    "מלפפונים"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "carrot",
+   "name": "גזר",
+   "synonyms": [
+    "גזרים",
+    "גזר חי"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "cooked-carrot",
+   "name": "גזר מבושל",
+   "synonyms": [
+    "גזר מתוק",
+    "צימעס"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pepper",
+   "name": "פלפל",
+   "synonyms": [
+    "גמבה",
+    "פלפל אדום",
+    "פלפל צהוב",
+    "פלפל ירוק"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "lettuce",
+   "name": "חסה",
+   "synonyms": [
+    "עלי חסה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "cabbage",
+   "name": "כרוב",
+   "synonyms": [
+    "כרוב לבן",
+    "כרוב סגול"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "radish",
+   "name": "צנון",
+   "synonyms": [
+    "צנונית",
+    "צנוניות"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "kohlrabi",
+   "name": "קולרבי",
+   "synonyms": [],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "celery",
+   "name": "סלרי",
+   "synonyms": [
+    "גבעולי סלרי"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "fennel",
+   "name": "שומר",
+   "synonyms": [],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "green-onion",
+   "name": "בצל ירוק",
+   "synonyms": [],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "beet",
+   "name": "סלק",
+   "synonyms": [
+    "סלק מבושל"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "corn",
+   "name": "תירס",
+   "synonyms": [
+    "קלח תירס",
+    "תירס מבושל"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "sweet-corn",
+   "name": "תירס מתוק משומר",
+   "synonyms": [
+    "גרעיני תירס",
+    "תירס בקופסה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "popcorn",
+   "name": "פופקורן",
+   "synonyms": [
+    "תירס קלוי",
+    "פופקורן מתוק"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גרעיני התירס נשארים שלמים וניכרים גם אחרי הקלייה – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "potato",
+   "name": "תפוח אדמה מבושל",
+   "synonyms": [
+    "תפוחי אדמה",
+    "תפוא",
+    "תפו\"א",
+    "תפוח אדמה אפוי"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "תפוח אדמה נאכל מבושל או אפוי, וזו דרכו – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "fries",
+   "name": "צ'יפס",
+   "synonyms": [
+    "ציפס",
+    "צ'יפס תפוחי אדמה",
+    "פרנץ' פרייז"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mashed-potatoes",
+   "name": "פירה",
+   "synonyms": [
+    "מחית תפוחי אדמה",
+    "פירה תפוחי אדמה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "תפוחי אדמה מרוסקים הם דרך רגילה לאכול אותם – לכן הברכה נשארת האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": false
+  },
+  {
+   "id": "sweet-potato",
+   "name": "בטטה",
+   "synonyms": [
+    "בטטות",
+    "בטטה אפויה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "zucchini",
+   "name": "קישוא",
+   "synonyms": [
+    "קישואים"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "eggplant",
+   "name": "חציל",
+   "synonyms": [
+    "חצילים",
+    "חציל קלוי"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pumpkin",
+   "name": "דלעת",
+   "synonyms": [
+    "דלעת ערמונים",
+    "דלורית"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "peas",
+   "name": "אפונה",
+   "synonyms": [
+    "אפונה ירוקה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "green-beans",
+   "name": "שעועית ירוקה",
+   "synonyms": [
+    "שעועית",
+    "לוביה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "chickpeas",
+   "name": "גרגרי חומוס",
+   "synonyms": [
+    "חומוס גרגירים",
+    "חומוס מבושל",
+    "גרגרים"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "lentils",
+   "name": "עדשים",
+   "synonyms": [
+    "עדשים מבושלות"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "broad-beans",
+   "name": "פול",
+   "synonyms": [
+    "פול מבושל",
+    "פול מדמס"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "edamame",
+   "name": "אדממה",
+   "synonyms": [
+    "פולי סויה ירוקים"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "artichoke",
+   "name": "ארטישוק",
+   "synonyms": [
+    "לבבות ארטישוק"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "cauliflower",
+   "name": "כרובית",
+   "synonyms": [
+    "כרובית מבושלת",
+    "כרובית אפויה"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "broccoli",
+   "name": "ברוקולי",
+   "synonyms": [],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "fried-onion",
+   "name": "בצל מטוגן",
+   "synonyms": [
+    "בצל מוקפץ",
+    "בצל מבושל"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בצל דרכו להיאכל מבושל או מטוגן, ובמצב זה מברכים עליו האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "raw-onion",
+   "name": "בצל חי",
+   "synonyms": [
+    "בצל יבש חי"
+   ],
+   "category": "vegetables",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בצל יבש אין דרכו להיאכל חי לבדו, ולכן כשאוכלים אותו חי מברכים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mushrooms",
+   "name": "פטריות",
+   "synonyms": [
+    "פטרייה",
+    "שמפיניון",
+    "פטריות שמפיניון"
+   ],
+   "category": "vegetables",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "פטריות אינן יונקות מהאדמה כמו צמח רגיל – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pickles",
+   "name": "מלפפון חמוץ",
+   "synonyms": [
+    "חמוצים",
+    "מלפפונים חמוצים",
+    "מלפפון כבוש"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sauerkraut",
+   "name": "כרוב כבוש",
+   "synonyms": [
+    "כרוב חמוץ"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "veg-salad",
+   "name": "סלט ירקות",
+   "synonyms": [
+    "סלט ישראלי",
+    "סלט קצוץ",
+    "סלט"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "coleslaw",
+   "name": "סלט כרוב",
+   "synonyms": [
+    "קולסלאו"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "roasted-veg",
+   "name": "ירקות אפויים",
+   "synonyms": [
+    "ירקות בתנור",
+    "ירקות קלויים"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "stir-fry-veg",
+   "name": "ירקות מוקפצים",
+   "synonyms": [
+    "מוקפץ ירקות"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "potato-latkes",
+   "name": "לביבות תפוחי אדמה",
+   "synonyms": [
+    "לביבות",
+    "לטקס"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "יש מחלוקת: אם תפוחי האדמה מגורדים דק וניכרים – האדמה; אם יש קמח משמעותי – יש אומרים מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "potato-kugel",
+   "name": "קוגל תפוחי אדמה",
+   "synonyms": [
+    "קוגל תפו\"א"
+   ],
+   "category": "vegetables",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "תפוחי האדמה מגורדים ולפעמים אינם ניכרים, ויש מחלוקת אם מברכים האדמה או שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "bread",
+   "name": "לחם",
+   "synonyms": [
+    "פרוסת לחם",
+    "לחם אחיד",
+    "לחם לבן",
+    "כיכר לחם"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "whole-bread",
+   "name": "לחם מלא",
+   "synonyms": [
+    "לחם חיטה מלאה",
+    "לחם דגנים"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "rye-bread",
+   "name": "לחם שיפון",
+   "synonyms": [
+    "שיפון"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "spelt-bread",
+   "name": "לחם כוסמין",
+   "synonyms": [
+    "כוסמין"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "oat-bread",
+   "name": "לחם שיבולת שועל",
+   "synonyms": [
+    "לחם שועל"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "challah",
+   "name": "חלה",
+   "synonyms": [
+    "חלות",
+    "חלת שבת",
+    "חלה מתוקה"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "pita",
+   "name": "פיתה",
+   "synonyms": [
+    "פיתות",
+    "פיתה עיראקית"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "lafa",
+   "name": "לאפה",
+   "synonyms": [
+    "לאפות",
+    "טאבון"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "baguette",
+   "name": "באגט",
+   "synonyms": [
+    "בגט",
+    "לחם צרפתי"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "roll",
+   "name": "לחמנייה",
+   "synonyms": [
+    "לחמניה",
+    "לחמניות",
+    "לחמניית המבורגר"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "לחם מחמשת מיני דגן – מברכים המוציא ובסוף ברכת המזון.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "toast",
+   "name": "טוסט",
+   "synonyms": [
+    "לחם קלוי",
+    "טוסט גבינה",
+    "טוסט צהובה"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "טוסט הוא לחם, וקלייה או מילוי לא משנים את ברכתו.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "sandwich",
+   "name": "כריך",
+   "synonyms": [
+    "סנדוויץ'",
+    "סנדוויץ",
+    "כריך גבינה",
+    "כריך טונה"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "הלחם הוא העיקר והמילוי טפל לו – לכן המוציא פוטר הכול.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "bagel",
+   "name": "בייגל",
+   "synonyms": [
+    "בייגלס",
+    "בייגל ניו יורקי"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "בייגל עשוי מבצק לחם שנחלט במים ונאפה – לכן המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": false
+  },
+  {
+   "id": "burger-bun",
+   "name": "המבורגר בלחמנייה",
+   "synonyms": [
+    "המבורגר",
+    "בורגר"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "falafel-pita",
+   "name": "פלאפל בפיתה",
+   "synonyms": [
+    "מנת פלאפל",
+    "פיתה פלאפל"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "shawarma-pita",
+   "name": "שווארמה בפיתה",
+   "synonyms": [
+    "שווארמה בלאפה",
+    "מנת שווארמה"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sabich",
+   "name": "סביח",
+   "synonyms": [
+    "פיתה סביח"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "hot-dog",
+   "name": "נקניקייה בלחמנייה",
+   "synonyms": [
+    "הוט דוג",
+    "נקניקיה בלחמניה"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "schnitzel-baguette",
+   "name": "באגט שניצל",
+   "synonyms": [
+    "כריך שניצל"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "matzah",
+   "name": "מצה",
+   "synonyms": [
+    "מצות",
+    "מצה (לא בפסח)"
+   ],
+   "category": "bread",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "לפי הספרדים, מצה בשאר ימות השנה נחשבת כקרקר פריך – מזונות, אלא אם קובעים עליה סעודה. בפסח מברכים המוציא לכולי עלמא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "nusach_diff": {
+    "ashkenaz": {
+     "first": "hamotzi",
+     "last": "bh"
+    },
+    "text": "ספרדים: מזונות ועל המחיה (מחוץ לפסח, כשלא קובעים סעודה). אשכנזים: תמיד המוציא וברכת המזון."
+   },
+   "doubt": false
+  },
+  {
+   "id": "mezonot-roll",
+   "name": "לחמניית מזונות",
+   "synonyms": [
+    "לחם מזונות",
+    "פיתה מזונות",
+    "לחמניה מזונות"
+   ],
+   "category": "bread",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "לחם שנילוש במיץ פירות במקום מים נחשב לפי חלק מהפוסקים פת הבאה בכיסנין – אבל רבים מפקפקים בכך.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "nusach_diff": {
+    "ashkenaz": {
+     "first": "hamotzi",
+     "last": "bh"
+    },
+    "text": "ספרדים (לפי הרב עובדיה יוסף): מזונות אם טעם המיץ ניכר ולא קובעים סעודה. אשכנזים: רוב הפוסקים – המוציא."
+   },
+   "doubt": true
+  },
+  {
+   "id": "laffa-wrap",
+   "name": "טורטייה",
+   "synonyms": [
+    "טורטיה",
+    "ראפ",
+    "wrap"
+   ],
+   "category": "bread",
+   "first": "hamotzi",
+   "last": "bh",
+   "rule_id": "bread",
+   "why": "טורטייה מחיטה היא בצק לחם דק; יש שמחשיבים אותה לחם ויש שדנו בה. בספק בין המוציא למזונות – לאכול בתוך סעודה.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ז; סימן קפ\"ד סעיף ו",
+   "doubt": true
+  },
+  {
+   "id": "pizza",
+   "name": "פיצה",
+   "synonyms": [
+    "משולש פיצה",
+    "מגש פיצה"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "פיצה נחשבת פת הבאה בכיסנין בגלל הגבינה והרוטב שאפויים עליה – מזונות, אבל מי שאוכל כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "burekas",
+   "name": "בורקס",
+   "synonyms": [
+    "בורקס גבינה",
+    "בורקס תפוחי אדמה",
+    "בורקס פטריות"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "jachnun",
+   "name": "ג'חנון",
+   "synonyms": [
+    "גחנון"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "malawach",
+   "name": "מלאווח",
+   "synonyms": [
+    "מלוואח",
+    "מלאוח"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "sambusak",
+   "name": "סמבוסק",
+   "synonyms": [
+    "סמבוסה"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "quiche",
+   "name": "קיש",
+   "synonyms": [
+    "פשטידה בבצק",
+    "טארט מלוח"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "croissant",
+   "name": "קרואסון",
+   "synonyms": [
+    "קרואסונים",
+    "קרואסון שוקולד",
+    "קרואסון חמאה"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "danish",
+   "name": "מאפה שמרים",
+   "synonyms": [
+    "דניש",
+    "מאפה גבינה"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "rugelach",
+   "name": "רוגלך",
+   "synonyms": [
+    "רוגעלך",
+    "רוגלך שוקולד"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "yeast-cake",
+   "name": "עוגת שמרים",
+   "synonyms": [
+    "בבקה",
+    "קראנץ'",
+    "עוגת שמרים שוקולד"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "cake",
+   "name": "עוגה",
+   "synonyms": [
+    "עוגת ספוג",
+    "עוגת שיש",
+    "עוגה בחושה"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "choc-cake",
+   "name": "עוגת שוקולד",
+   "synonyms": [
+    "עוגת שוקולד חמה",
+    "עוגת יום הולדת"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "honey-cake",
+   "name": "עוגת דבש",
+   "synonyms": [
+    "לעקאח"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "cheesecake",
+   "name": "עוגת גבינה",
+   "synonyms": [
+    "עוגת גבינה אפויה",
+    "עוגת גבינה פירורים"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "כשיש בעוגה בסיס או פירורים מקמח חיטה לטעם – המזונות הוא העיקר. עוגת גבינה בלי שום בצק – שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "muffin",
+   "name": "מאפין",
+   "synonyms": [
+    "מאפינס",
+    "קאפקייק"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "brownies",
+   "name": "בראוניז",
+   "synonyms": [
+    "בראוני"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "strudel",
+   "name": "שטרודל",
+   "synonyms": [
+    "שטרודל תפוחים"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "apple-pie",
+   "name": "פאי תפוחים",
+   "synonyms": [
+    "פאי",
+    "עוגת תפוחים"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "cookies",
+   "name": "עוגיות",
+   "synonyms": [
+    "עוגייה",
+    "עוגיה",
+    "עוגיות חמאה",
+    "עוגיות שוקולד צ'יפס"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "petit-beurre",
+   "name": "ביסקוויטים",
+   "synonyms": [
+    "פתי בר",
+    "ביסקוויט",
+    "פתיבר"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "crackers",
+   "name": "קרקרים",
+   "synonyms": [
+    "קרקר",
+    "קרקר מלוח",
+    "קרקר דק"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "קרקר הוא מאפה יבש ופריך – פת הבאה בכיסנין, ולכן מזונות כשלא קובעים עליו סעודה.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "nusach_diff": {
+    "text": "יש פוסקים אשכנזים שקרקר שאינו מתוק ונראה כלחם דינו המוציא. כדאי לשאול."
+   },
+   "doubt": false
+  },
+  {
+   "id": "pretzels",
+   "name": "בייגלה",
+   "synonyms": [
+    "בייגלה מלוח",
+    "מקלות בייגלה",
+    "בייגלה שטוח"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "wafers",
+   "name": "ופלים",
+   "synonyms": [
+    "ופל",
+    "וופל",
+    "ופלים במילוי"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "sufganiya",
+   "name": "סופגנייה",
+   "synonyms": [
+    "סופגניה",
+    "סופגניות",
+    "דונאט",
+    "דונאטס"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "בצק שטוגן בשמן עמוק הוא \"מעשה קדרה\" – מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיף יג",
+   "nusach_diff": {
+    "text": "לספרדים מזונות גם כשאוכלים הרבה; יש אשכנזים שאם קבע סעודה על סופגניות מבצק לחם מברך המוציא."
+   },
+   "doubt": false
+  },
+  {
+   "id": "blintzes",
+   "name": "בלינצ'ס",
+   "synonyms": [
+    "בלינצס",
+    "חביתיות ממולאות"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "pancakes",
+   "name": "פנקייק",
+   "synonyms": [
+    "פנקייקס",
+    "חביתיות"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "crepe",
+   "name": "קרפ",
+   "synonyms": [
+    "קרפים",
+    "קרפ צרפתי"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "belgian-waffle",
+   "name": "וופל בלגי",
+   "synonyms": [
+    "וופל בלגי חם"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "sweet-challah-cake",
+   "name": "עוגיות מלוחות",
+   "synonyms": [
+    "עוגיות גבינה",
+    "עוגיות מלוחות שומשום"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "kreplach",
+   "name": "קרפלך",
+   "synonyms": [
+    "כיסונים",
+    "כיסוני בשר"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "pashtida-pasta",
+   "name": "פשטידת אטריות",
+   "synonyms": [
+    "קוגל אטריות",
+    "לוקשן קוגל",
+    "קוגל ירושלמי"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "lahmajun",
+   "name": "לחמג'ון",
+   "synonyms": [
+    "לחמעג'ון"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "bourekas-tray",
+   "name": "מאפה עלים",
+   "synonyms": [
+    "בצק עלים",
+    "מאפה בצק עלים"
+   ],
+   "category": "pastries",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "krembo",
+   "name": "קרמבו",
+   "synonyms": [
+    "קרמבואים"
+   ],
+   "category": "pastries",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "יש מחלוקת אם הביסקוויט שבתחתית הוא העיקר (מזונות) או טפל לקצפת ולשוקולד (שהכל). רבים נוהגים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "pasta",
+   "name": "פסטה",
+   "synonyms": [
+    "פנה",
+    "פוזילי",
+    "מקרוני",
+    "פסטה ברוטב",
+    "פסטה עגבניות",
+    "פסטה רוזה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "spaghetti",
+   "name": "ספגטי",
+   "synonyms": [
+    "ספגטי בולונז"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "lasagna",
+   "name": "לזניה",
+   "synonyms": [
+    "לזנייה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "ptitim",
+   "name": "פתיתים",
+   "synonyms": [
+    "פתיתים אפויים",
+    "פתיתים כוכבים"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "couscous",
+   "name": "קוסקוס",
+   "synonyms": [
+    "קוסקוס מבושל"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "noodles",
+   "name": "אטריות",
+   "synonyms": [
+    "נודלס",
+    "אטריות ביצים",
+    "אטריות חיטה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "instant-noodles",
+   "name": "נודלס אינסטנט",
+   "synonyms": [
+    "אטריות מוכנות",
+    "כוס נודלס",
+    "נודלס בכוס"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "ravioli",
+   "name": "רביולי",
+   "synonyms": [
+    "טורטליני"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "semolina-porridge",
+   "name": "דייסת סולת",
+   "synonyms": [
+    "סולת",
+    "דייסה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "oatmeal",
+   "name": "דייסת שיבולת שועל",
+   "synonyms": [
+    "קוואקר",
+    "דייסת קוואקר",
+    "שיבולת שועל",
+    "אוטמיל"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "שיבולת שועל היא מחמשת מיני הדגן, ובישול לדייסה – מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "bulgur",
+   "name": "בורגול",
+   "synonyms": [
+    "בורגר",
+    "בורגול מבושל",
+    "ברגול"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "בורגול הוא חיטה גרוסה; כשהגרגרים מבושלים ודבוקים מברכים מזונות, ויש שדנו כשהגרגרים שלמים ונפרדים.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": true
+  },
+  {
+   "id": "freekeh",
+   "name": "פריקה",
+   "synonyms": [
+    "חיטה ירוקה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "חיטה גרוסה מבושלת – בדרך כלל מזונות, אך כשהגרגרים שלמים ונפרדים יש אומרים האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": true
+  },
+  {
+   "id": "pearl-barley",
+   "name": "גריסים",
+   "synonyms": [
+    "גריסי פנינה",
+    "שעורה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "kubbeh",
+   "name": "קובה",
+   "synonyms": [
+    "קובה מטוגנת",
+    "קובה סולת",
+    "קובה בורגול"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "מעטפת הקובה עשויה סולת או בורגול – חמשת מיני דגן, והיא נחשבת העיקר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "kubbeh-soup",
+   "name": "מרק קובה",
+   "synonyms": [
+    "קובה אדומה",
+    "קובה חמוסטה",
+    "קובה סלק"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "מברכים מזונות על הקובה שבמרק; המרק עצמו טפל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "schnitzel",
+   "name": "שניצל",
+   "synonyms": [
+    "שניצל עוף",
+    "שניצלונים",
+    "נאגטס"
+   ],
+   "category": "grains",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "העוף הוא העיקר, והציפוי של פירורי הלחם בא רק לשפר – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "gnocchi",
+   "name": "ניוקי",
+   "synonyms": [
+    "ניוקי תפוחי אדמה"
+   ],
+   "category": "grains",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "safek",
+   "why": "ניוקי עשוי מתפוחי אדמה עם קמח חיטה. קמח שבא לטעם ולשובע הופך את המאכל למזונות, אבל יש שדנו בו.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "rice",
+   "name": "אורז",
+   "synonyms": [
+    "אורז לבן",
+    "אורז מבושל",
+    "אורז פרסי",
+    "אורז בסמטי"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "אורז מבושל – מזונות, אבל הברכה האחרונה בורא נפשות כי אינו מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "brown-rice",
+   "name": "אורז מלא",
+   "synonyms": [
+    "אורז חום"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "אורז מבושל – מזונות, אבל הברכה האחרונה בורא נפשות כי אינו מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "mujadara",
+   "name": "מג'דרה",
+   "synonyms": [
+    "מג'דרה אורז",
+    "מגדרה"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "האורז הוא העיקר במג'דרה והעדשים טפלים – לכן מזונות ובורא נפשות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "sushi",
+   "name": "סושי",
+   "synonyms": [
+    "רול סושי",
+    "סושי סלמון",
+    "אינסייד אאוט"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "האורז הוא העיקר בסושי – לכן מזונות, והברכה האחרונה בורא נפשות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "risotto",
+   "name": "ריזוטו",
+   "synonyms": [
+    "ריזוטו פטריות"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "אורז מבושל – מזונות, אבל הברכה האחרונה בורא נפשות כי אינו מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "rice-pudding",
+   "name": "פודינג אורז",
+   "synonyms": [
+    "סחלב אורז",
+    "מהלבייה אורז",
+    "ריס פודינג"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "אורז מבושל – מזונות, אבל הברכה האחרונה בורא נפשות כי אינו מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "fried-rice",
+   "name": "אורז מוקפץ",
+   "synonyms": [
+    "אורז סיני",
+    "אורז עם ירקות"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "אורז מבושל – מזונות, אבל הברכה האחרונה בורא נפשות כי אינו מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "stuffed-grape-leaves",
+   "name": "עלי גפן ממולאים",
+   "synonyms": [
+    "ממולאים",
+    "דולמה"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "rice",
+   "why": "מילוי האורז הוא בדרך כלל העיקר – מזונות, ויש מחלוקת אם לברך גם על העלים.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיף ז",
+   "doubt": true
+  },
+  {
+   "id": "rice-cakes",
+   "name": "פריכיות אורז",
+   "synonyms": [
+    "פריכית אורז",
+    "פריכיות"
+   ],
+   "category": "rice",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "גרגרי האורז בפריכיות תפוחים ונראים שלמים; יש פוסקים האדמה ויש מזונות. בספק – כדאי לשאול.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "corn-cakes",
+   "name": "פריכיות תירס",
+   "synonyms": [
+    "פריכית תירס"
+   ],
+   "category": "rice",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גרגרי התירס תפוחים וניכרים – לרוב הפוסקים האדמה, ויש שמברכים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": true
+  },
+  {
+   "id": "rice-noodles",
+   "name": "אטריות אורז",
+   "synonyms": [
+    "נודלס אורז",
+    "פאד תאי"
+   ],
+   "category": "rice",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "אטריות מקמח אורז – יש אומרים מזונות כמו אורז ויש אומרים שהכל. כדאי לשאול.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "cornflakes",
+   "name": "קורנפלקס",
+   "synonyms": [
+    "פתיתי תירס",
+    "קורנפלקס תלמה"
+   ],
+   "category": "cereals",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "הקורנפלקס עשוי מתירס שנטחן ונאפה מחדש. יש פוסקים האדמה ויש שהכל. בספק – שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "cheerios",
+   "name": "צ'יריוס",
+   "synonyms": [
+    "צ'יריוס דבש",
+    "טבעות שיבולת שועל"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשויים בעיקר משיבולת שועל – מחמשת מיני דגן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "kariot",
+   "name": "כריות",
+   "synonyms": [
+    "כריות במילוי",
+    "כריות שוקולד",
+    "כריות נוגט"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "מעטפת הכריות עשויה מקמח חיטה – מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "granola",
+   "name": "גרנולה",
+   "synonyms": [
+    "גרנולה אפויה",
+    "גרנולה עם דבש"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "רוב הגרנולה עשויה משיבולת שועל אפויה – מחמשת מיני דגן, לכן מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "muesli",
+   "name": "מוזלי",
+   "synonyms": [
+    "מוסלי"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "cereal-milk",
+   "name": "דגני בוקר עם חלב",
+   "synonyms": [
+    "קערת דגנים",
+    "דגנים וחלב"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "החלב בא בשביל הדגנים ולכן טפל להם. הכלל נכון לדגנים מחמשת המינים; בקורנפלקס – ראו אצלו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "puffed-wheat",
+   "name": "חיטה תפוחה",
+   "synonyms": [
+    "פצפוצי חיטה"
+   ],
+   "category": "cereals",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "safek",
+   "why": "גרגרי חיטה שלמים שנתפחו – יש אומרים האדמה כי לא נטחנו, ויש אומרים מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "rice-krispies",
+   "name": "פצפוצי אורז",
+   "synonyms": [
+    "ראיס קריספיס"
+   ],
+   "category": "cereals",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "אורז תפוח – יש אומרים האדמה ויש מזונות או שהכל. כדאי לשאול.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "water",
+   "name": "מים",
+   "synonyms": [
+    "כוס מים",
+    "מי ברז",
+    "מים קרים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "water",
+   "why": "על מים מברכים שהכל, ורק כששותים לצמא.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף ז",
+   "note": "מברכים רק כששותים לצמא.",
+   "doubt": false
+  },
+  {
+   "id": "mineral-water",
+   "name": "מים מינרליים",
+   "synonyms": [
+    "בקבוק מים",
+    "מים בבקבוק",
+    "מי עדן",
+    "נביעות"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "water",
+   "why": "על מים מברכים שהכל, ורק כששותים לצמא.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף ז",
+   "note": "מברכים רק כששותים לצמא.",
+   "doubt": false
+  },
+  {
+   "id": "soda",
+   "name": "סודה",
+   "synonyms": [
+    "מים מוגזים",
+    "סודה סטרים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "water",
+   "why": "על מים מברכים שהכל, ורק כששותים לצמא.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף ז",
+   "doubt": false
+  },
+  {
+   "id": "flavored-water",
+   "name": "מים בטעמים",
+   "synonyms": [
+    "מים בטעם",
+    "מי טעם"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cola",
+   "name": "קולה",
+   "synonyms": [
+    "קוקה קולה",
+    "פפסי",
+    "קולה זירו"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sprite",
+   "name": "משקה מוגז",
+   "synonyms": [
+    "ספרייט",
+    "פאנטה",
+    "שוופס",
+    "גזוז"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "energy-drink",
+   "name": "משקה אנרגיה",
+   "synonyms": [
+    "רד בול",
+    "אקס ל"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "tea",
+   "name": "תה",
+   "synonyms": [
+    "כוס תה",
+    "תה עם נענע",
+    "תה צמחים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "coffee",
+   "name": "קפה",
+   "synonyms": [
+    "קפה שחור",
+    "טורקי",
+    "אספרסו"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "latte",
+   "name": "קפה הפוך",
+   "synonyms": [
+    "הפוך",
+    "קפוצ'ינו",
+    "לאטה"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "instant-coffee",
+   "name": "נס קפה",
+   "synonyms": [
+    "נסקפה",
+    "קפה נמס"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "iced-coffee",
+   "name": "אייס קפה",
+   "synonyms": [
+    "קפה קר",
+    "אייס לאטה",
+    "ברד קפה"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "iced-tea",
+   "name": "אייס תה",
+   "synonyms": [
+    "תה קר",
+    "נסטי"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "hot-chocolate",
+   "name": "שוקו חם",
+   "synonyms": [
+    "שוקולד חם"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "choco-milk",
+   "name": "שוקו",
+   "synonyms": [
+    "שוקו בשקית",
+    "שוקו קר",
+    "חלב שוקולד"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sachlab",
+   "name": "סחלב",
+   "synonyms": [
+    "סחלב חם"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על משקה חם ששותים לאט בדרך כלל אין ברכה אחרונה, כי לא שותים רביעית ברצף.",
+   "doubt": false
+  },
+  {
+   "id": "orange-juice",
+   "name": "מיץ תפוזים",
+   "synonyms": [
+    "מיץ תפוזים סחוט",
+    "תפוזים סחוט",
+    "מיץ הדרים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "apple-juice",
+   "name": "מיץ תפוחים",
+   "synonyms": [
+    "מיץ תפוחי עץ",
+    "סיידר"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "grapefruit-juice",
+   "name": "מיץ אשכוליות",
+   "synonyms": [
+    "אשכוליות סחוט"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "carrot-juice",
+   "name": "מיץ גזר",
+   "synonyms": [
+    "גזר סחוט"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "pomegranate-juice",
+   "name": "מיץ רימונים",
+   "synonyms": [
+    "רימונים סחוט"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "lemonade",
+   "name": "לימונדה",
+   "synonyms": [
+    "לימונענע",
+    "מיץ לימון"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "nectar",
+   "name": "נקטר פירות",
+   "synonyms": [
+    "נקטר",
+    "משקה פירות",
+    "פריגת",
+    "ספרינג"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "tomato-juice",
+   "name": "מיץ עגבניות",
+   "synonyms": [],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "fruit-syrup",
+   "name": "מיץ פטל",
+   "synonyms": [
+    "תרכיז",
+    "סירופ פטל",
+    "מיץ ממותק"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "smoothie",
+   "name": "שייק פירות",
+   "synonyms": [
+    "סמוזי",
+    "שייק בננה",
+    "שייק תותים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "פירות שנטחנו לגמרי לשתייה – רבים מברכים שהכל, ויש אומרים שבשייק סמיך הברכה נשארת כשל הפרי.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": true
+  },
+  {
+   "id": "grape-juice",
+   "name": "מיץ ענבים",
+   "synonyms": [
+    "מיץ ענבים אדום",
+    "מיץ ענבים לבן",
+    "תירוש"
+   ],
+   "category": "drinks",
+   "first": "hagafen",
+   "last": "gefen",
+   "rule_id": "wine",
+   "why": "יין ומיץ ענבים קיבלו ברכה מיוחדת – בורא פרי הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "red-wine",
+   "name": "יין אדום",
+   "synonyms": [
+    "יין",
+    "יין יבש",
+    "יין חצי יבש"
+   ],
+   "category": "drinks",
+   "first": "hagafen",
+   "last": "gefen",
+   "rule_id": "wine",
+   "why": "יין ומיץ ענבים קיבלו ברכה מיוחדת – בורא פרי הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "white-wine",
+   "name": "יין לבן",
+   "synonyms": [
+    "יין רוזה"
+   ],
+   "category": "drinks",
+   "first": "hagafen",
+   "last": "gefen",
+   "rule_id": "wine",
+   "why": "יין ומיץ ענבים קיבלו ברכה מיוחדת – בורא פרי הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "kiddush-wine",
+   "name": "יין קידוש",
+   "synonyms": [
+    "יין מתוק",
+    "קידוש"
+   ],
+   "category": "drinks",
+   "first": "hagafen",
+   "last": "gefen",
+   "rule_id": "wine",
+   "why": "יין ומיץ ענבים קיבלו ברכה מיוחדת – בורא פרי הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sparkling-wine",
+   "name": "יין מבעבע",
+   "synonyms": [
+    "שמפניה",
+    "קאווה",
+    "פרוסקו"
+   ],
+   "category": "drinks",
+   "first": "hagafen",
+   "last": "gefen",
+   "rule_id": "wine",
+   "why": "יין ומיץ ענבים קיבלו ברכה מיוחדת – בורא פרי הגפן.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "brandy",
+   "name": "קוניאק",
+   "synonyms": [
+    "ברנדי"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "wine",
+   "why": "קוניאק הוא משקה מזוקק מענבים, והזיקוק מוציא אותו מגדר יין – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף א; סימן ער\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "beer",
+   "name": "בירה",
+   "synonyms": [
+    "בירה שחורה",
+    "בירה ללא אלכוהול"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "vodka",
+   "name": "וודקה",
+   "synonyms": [
+    "וודקה בטעמים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "whisky",
+   "name": "וויסקי",
+   "synonyms": [
+    "ויסקי",
+    "בורבון"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "arak",
+   "name": "ערק",
+   "synonyms": [
+    "ערק אשקלון",
+    "אוזו"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "liqueur",
+   "name": "ליקר",
+   "synonyms": [
+    "ליקר שוקולד",
+    "אמרטו"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "milk",
+   "name": "חלב",
+   "synonyms": [
+    "כוס חלב",
+    "חלב 3%",
+    "חלב 1%"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "soy-milk",
+   "name": "חלב סויה",
+   "synonyms": [
+    "משקה סויה"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "almond-milk",
+   "name": "חלב שקדים",
+   "synonyms": [
+    "משקה שקדים"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "oat-milk",
+   "name": "חלב שיבולת שועל",
+   "synonyms": [
+    "משקה שיבולת שועל",
+    "חלב שועל"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "משקה משיבולת שועל – יש אומרים שהכל כמו משקה, ויש שדנו אם הדגן שבו מחייב מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "rice-milk",
+   "name": "חלב אורז",
+   "synonyms": [
+    "משקה אורז"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "coconut-water",
+   "name": "מי קוקוס",
+   "synonyms": [],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "מיץ שיוצא מפרי נחשב משקה ולא פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "kombucha",
+   "name": "קומבוצ'ה",
+   "synonyms": [
+    "קומבוצה"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "drinking-yogurt",
+   "name": "משקה יוגורט",
+   "synonyms": [
+    "יוגורט לשתייה",
+    "משקה חלב"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "malt-beer",
+   "name": "בירה שחורה מאלט",
+   "synonyms": [
+    "מאלט",
+    "נשר מאלט"
+   ],
+   "category": "drinks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "yogurt",
+   "name": "יוגורט",
+   "synonyms": [
+    "יוגורט טבעי",
+    "יוגורט פירות",
+    "יוגורט יווני"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cottage",
+   "name": "קוטג'",
+   "synonyms": [
+    "קוטג",
+    "גבינת קוטג'"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "white-cheese",
+   "name": "גבינה לבנה",
+   "synonyms": [
+    "גבינה 5%",
+    "גבינה רכה",
+    "קוורק"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "yellow-cheese",
+   "name": "גבינה צהובה",
+   "synonyms": [
+    "עמק",
+    "גאודה",
+    "מוצרלה",
+    "גבינה קשה"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "bulgarian",
+   "name": "גבינה בולגרית",
+   "synonyms": [
+    "בולגרית",
+    "פטה",
+    "גבינה מלוחה"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "labane",
+   "name": "לבנה",
+   "synonyms": [
+    "לאבנה",
+    "לבן"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cream-cheese",
+   "name": "גבינת שמנת",
+   "synonyms": [
+    "גבינה למריחה",
+    "פילדלפיה"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "butter",
+   "name": "חמאה",
+   "synonyms": [],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cream",
+   "name": "שמנת",
+   "synonyms": [
+    "שמנת חמוצה",
+    "שמנת מתוקה",
+    "קצפת"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pudding",
+   "name": "פודינג",
+   "synonyms": [
+    "פודינג וניל",
+    "פודינג שוקולד"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "milky",
+   "name": "מעדן חלב עם קצפת",
+   "synonyms": [
+    "מילקי",
+    "מעדן שוקולד"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "ice-cream",
+   "name": "גלידה",
+   "synonyms": [
+    "גלידה וניל",
+    "גלידת שוקולד",
+    "גלידה בכוס"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "popsicle",
+   "name": "ארטיק",
+   "synonyms": [
+    "ארטיק שלגון",
+    "ארטיק קרח",
+    "שלגון"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sorbet",
+   "name": "סורבה",
+   "synonyms": [
+    "גלידת פירות",
+    "ברד"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "frozen-yogurt",
+   "name": "פרוזן יוגורט",
+   "synonyms": [
+    "פרוזן"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "hard-egg",
+   "name": "ביצה קשה",
+   "synonyms": [
+    "ביצה",
+    "ביצים",
+    "ביצה מבושלת"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "omelette",
+   "name": "חביתה",
+   "synonyms": [
+    "חביתה ירק",
+    "ביצה מקושקשת",
+    "ביצת עין"
+   ],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "shakshuka",
+   "name": "שקשוקה",
+   "synonyms": [],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "תלוי מה העיקר בעיניך – הביצים (שהכל) או רוטב העגבניות (האדמה). בדרך כלל אוכלים בתוך סעודה עם לחם.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": true
+  },
+  {
+   "id": "egg-salad",
+   "name": "סלט ביצים",
+   "synonyms": [],
+   "category": "dairy",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "chicken",
+   "name": "עוף",
+   "synonyms": [
+    "חזה עוף",
+    "כרעיים",
+    "שוקיים",
+    "פרגיות"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "meat",
+   "name": "בשר",
+   "synonyms": [
+    "סטייק",
+    "אנטריקוט",
+    "צלי",
+    "בשר בקר"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "meatballs",
+   "name": "קציצות",
+   "synonyms": [
+    "קציצות בשר",
+    "קציצות ברוטב",
+    "כדורי בשר"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "הבשר הוא העיקר, ופירורי הלחם בקציצות באים רק לדבק – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "burger-patty",
+   "name": "קציצת המבורגר",
+   "synonyms": [
+    "המבורגר בלי לחמנייה"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "kebab",
+   "name": "קבב",
+   "synonyms": [
+    "קבבים"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "sausage",
+   "name": "נקניקיות",
+   "synonyms": [
+    "נקניקייה",
+    "נקניקיה"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "salami",
+   "name": "נקניק",
+   "synonyms": [
+    "סלמי",
+    "פסטרמה",
+    "נקניק פרוס"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "shawarma",
+   "name": "שווארמה",
+   "synonyms": [
+    "שווארמה בצלחת"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "tuna",
+   "name": "טונה",
+   "synonyms": [
+    "טונה בשמן",
+    "טונה במים",
+    "קופסת טונה"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "tuna-salad",
+   "name": "סלט טונה",
+   "synonyms": [],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "salmon",
+   "name": "סלמון",
+   "synonyms": [
+    "סלמון אפוי",
+    "סלמון מעושן"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "fish",
+   "name": "דג",
+   "synonyms": [
+    "דגים",
+    "פילה דג",
+    "מושט",
+    "דניס"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "gefilte",
+   "name": "גפילטע פיש",
+   "synonyms": [
+    "גפילטע",
+    "קציצות דגים"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "herring",
+   "name": "הרינג",
+   "synonyms": [
+    "דג מלוח"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "chicken-soup",
+   "name": "מרק עוף",
+   "synonyms": [
+    "ציר עוף",
+    "מרק עוף צלול"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "הנוזל של מרק העוף קיבל את טעם העוף – שהכל. על ירקות שאוכלים מתוכו מברכים האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "cholent",
+   "name": "חמין",
+   "synonyms": [
+    "צ'ולנט",
+    "טבית",
+    "דפינה"
+   ],
+   "category": "meat",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "החמין כולל בשר, תפוחי אדמה, קטניות ולפעמים חיטה או אורז – הברכה תלויה בעיקר. בדרך כלל אוכלים אותו בסעודה עם לחם.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "bamba",
+   "name": "במבה",
+   "synonyms": [
+    "במבה נוגט",
+    "במבה במילוי"
+   ],
+   "brand": "אסם",
+   "category": "snacks",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "במבה עשויה מתירס טחון. לפי הרב עובדיה יוסף – האדמה; יש פוסקים שמברכים שהכל כי התירס נטחן לגמרי.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "nusach_diff": {
+    "ashkenaz": {
+     "first": "shehakol"
+    },
+    "text": "ספרדים (ילקוט יוסף): האדמה. רבים מהאשכנזים: שהכל."
+   },
+   "doubt": true
+  },
+  {
+   "id": "bissli",
+   "name": "ביסלי",
+   "synonyms": [
+    "ביסלי גריל",
+    "ביסלי ברביקיו",
+    "ביסלי בצל"
+   ],
+   "brand": "אסם",
+   "category": "snacks",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "ביסלי עשוי מקמח חיטה – מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "potato-chips",
+   "name": "תפוצ'יפס",
+   "synonyms": [
+    "צ'יפס בשקית",
+    "חטיף תפוחי אדמה",
+    "תפוציפס"
+   ],
+   "category": "snacks",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "פרוסות תפוח אדמה מטוגנות – תפוח האדמה ניכר, לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "doritos",
+   "name": "דוריטוס",
+   "synonyms": [
+    "טורטייה צ'יפס",
+    "נאצ'וס"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "עשוי מבצק תירס טחון. יש אומרים האדמה ויש שהכל. בספק – שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "cheetos",
+   "name": "צ'יטוס",
+   "synonyms": [
+    "חטיף תירס",
+    "אפרופו"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "חטיף מתירס טחון שאין בו צורת תירס. יש אומרים האדמה ויש שהכל. בספק – שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "american-peanuts",
+   "name": "בוטנים אמריקאים",
+   "synonyms": [
+    "בוטנים מצופים",
+    "כיף בוטנים"
+   ],
+   "category": "snacks",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "הציפוי עשוי מקמח חיטה. יש אומרים שהבוטן עיקר (האדמה) ויש שמברכים מזונות על הציפוי.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "granola-bar",
+   "name": "חטיף גרנולה",
+   "synonyms": [
+    "חטיף דגנים",
+    "חטיף שיבולת שועל"
+   ],
+   "category": "snacks",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "כשרוב החטיף או חלק משמעותי ממנו שיבולת שועל – מזונות. חטיף בלי חמשת מיני דגן – לפי הרכיב העיקרי.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "protein-bar",
+   "name": "חטיף חלבון",
+   "synonyms": [
+    "חטיף אנרגיה"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "ההרכב משתנה מאוד בין חטיפים. אם יש בו קמח או שיבולת שועל – מזונות; אחרת בדרך כלל שהכל. כדאי לבדוק את הרכיבים.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "fruit-leather",
+   "name": "חטיף פירות",
+   "synonyms": [
+    "עור פירות",
+    "מקלות פירות",
+    "פרי ברי"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "פירות שנטחנו לגמרי לעיסה – יש אומרים שהכל ויש אומרים העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "kif-kef",
+   "name": "כיף כף",
+   "synonyms": [
+    "כיפכף"
+   ],
+   "brand": "עלית",
+   "category": "snacks",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "הוופל שבתוך החטיף בא לטעם ולשובע, ולכן הוא העיקר – מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pesek-zman",
+   "name": "פסק זמן",
+   "synonyms": [
+    "פסקזמן"
+   ],
+   "brand": "עלית",
+   "category": "snacks",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "בתוך החטיף יש ופל מחיטה שהוא העיקר – מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "wafer-bar",
+   "name": "חטיף ופל מצופה שוקולד",
+   "synonyms": [
+    "ופל בשוקולד",
+    "חטיף ופל"
+   ],
+   "category": "snacks",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "rice-crackers",
+   "name": "קרקר אורז",
+   "synonyms": [
+    "חטיף אורז"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "מקמח אורז מעובד – יש אומרים מזונות כאורז ויש אומרים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "halva",
+   "name": "חלבה",
+   "synonyms": [
+    "חלווה",
+    "חלבה וניל"
+   ],
+   "category": "snacks",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "חלבה עשויה משומשום טחון וסוכר. רבים מברכים שהכל, ויש שמברכים האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "sesame-bar",
+   "name": "חטיף שומשום",
+   "synonyms": [
+    "שומשומית"
+   ],
+   "category": "snacks",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "גרגרי שומשום שלמים בדבש – יש אומרים האדמה ויש אומרים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "milk-chocolate",
+   "name": "שוקולד חלב",
+   "synonyms": [
+    "שוקולד",
+    "טבלת שוקולד",
+    "שוקולד מריר",
+    "שוקולד לבן"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "פולי הקקאו עברו עיבוד ואינם ניכרים – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mekupelet",
+   "name": "מקופלת",
+   "synonyms": [],
+   "brand": "עלית",
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "nut-chocolate",
+   "name": "שוקולד עם אגוזים שלמים",
+   "synonyms": [
+    "שוקולד אגוזים",
+    "שוקולד שקדים"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "אם השוקולד הוא העיקר – שהכל; יש אומרים לברך גם העץ על האגוזים שהם חשובים בפני עצמם.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "pralines",
+   "name": "פרלינים",
+   "synonyms": [
+    "בונבוניירה",
+    "טראפלס"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "candy",
+   "name": "סוכריות",
+   "synonyms": [
+    "סוכרייה",
+    "סוכריה",
+    "סוכריות קשות",
+    "סוכריית מקל"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "none",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "ממתק שמוצצים לאט – בדרך כלל אין ברכה אחרונה, כי לא אוכלים כזית בזמן קצר.",
+   "doubt": false
+  },
+  {
+   "id": "gummies",
+   "name": "סוכריות גומי",
+   "synonyms": [
+    "גומי",
+    "דובונים",
+    "ג'לי"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "marshmallow",
+   "name": "מרשמלו",
+   "synonyms": [
+    "מרשמלו לבן",
+    "מרשמלו ורוד"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "gum",
+   "name": "מסטיק",
+   "synonyms": [
+    "מסטיקים",
+    "מסטיק בזוקה"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "none",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "על מסטיק אין ברכה אחרונה.",
+   "doubt": false
+  },
+  {
+   "id": "lokum",
+   "name": "לוקום",
+   "synonyms": [
+    "רחת לוקום"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "toffee",
+   "name": "טופי",
+   "synonyms": [
+    "קרמל",
+    "סוכריות טופי"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "none",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "note": "ממתק שמוצצים לאט – בדרך כלל אין ברכה אחרונה, כי לא אוכלים כזית בזמן קצר.",
+   "doubt": false
+  },
+  {
+   "id": "sugar",
+   "name": "סוכר",
+   "synonyms": [
+    "קוביית סוכר"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף טו",
+   "doubt": false
+  },
+  {
+   "id": "honey",
+   "name": "דבש",
+   "synonyms": [
+    "דבש דבורים"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "silan",
+   "name": "סילאן",
+   "synonyms": [
+    "דבש תמרים"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "juice",
+   "why": "דבש תמרים הוא \"מיץ\" של התמר ולא הפרי עצמו – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ח",
+   "doubt": false
+  },
+  {
+   "id": "jelly",
+   "name": "ג'לי",
+   "synonyms": [
+    "ג'לי פירות",
+    "ג'לי קוביות"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "meringue",
+   "name": "נשיקות",
+   "synonyms": [
+    "מרנג",
+    "נשיקות קצף"
+   ],
+   "category": "sweets",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "chocolate-balls",
+   "name": "כדורי שוקולד",
+   "synonyms": [
+    "כדורי ביסקוויטים"
+   ],
+   "category": "sweets",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "כדורי שוקולד עשויים מביסקוויטים טחונים – חמשת מיני דגן הם העיקר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "chocolate-salami",
+   "name": "סלמי שוקולד",
+   "synonyms": [
+    "נקניק שוקולד"
+   ],
+   "category": "sweets",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "עשוי מחמשת מיני דגן ואינו לחם – לכן מזונות ועל המחיה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": false
+  },
+  {
+   "id": "bueno",
+   "name": "חטיף שוקולד עם ופל",
+   "synonyms": [
+    "בואנו",
+    "קינדר בואנו",
+    "טוויקס"
+   ],
+   "category": "sweets",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "ikar-tafel",
+   "why": "כשיש בחטיף ופל או ביסקוויט מחיטה לטעם ולשובע – הוא העיקר, ומברכים מזונות.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "choc-spread",
+   "name": "ממרח שוקולד",
+   "synonyms": [
+    "נוטלה",
+    "ממרח נוגט"
+   ],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "shehakol",
+   "why": "לא גדל ישירות מהאדמה או שעבר עיבוד שאין בו צורת פרי – לכן שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "jam-pieces",
+   "name": "ריבה עם חתיכות פרי",
+   "synonyms": [
+    "ריבת תות",
+    "ריבת חתיכות",
+    "קונפיטורה"
+   ],
+   "category": "spreads",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "כשחתיכות הפרי ניכרות – הברכה כברכת הפרי (העץ, או האדמה לריבת תות שדה).",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "jam-smooth",
+   "name": "ריבה חלקה",
+   "synonyms": [
+    "ריבה",
+    "ריבת משמש",
+    "ריבת חלב"
+   ],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "כשהפרי מרוסק לגמרי ואינו ניכר יש מחלוקת: רבים מברכים שהכל, ויש שמברכים העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "applesauce",
+   "name": "רסק תפוחים",
+   "synonyms": [
+    "מחית תפוחים",
+    "רסק פירות"
+   ],
+   "category": "spreads",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "רסק הוא דרך רגילה לאכול תפוחים (למשל לתינוקות), ולכן רבים מברכים העץ; יש שמברכים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "peanut-butter",
+   "name": "חמאת בוטנים",
+   "synonyms": [
+    "ממרח בוטנים"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "בוטנים טחונים לגמרי – יש אומרים האדמה כי זו דרך אכילתם, ויש אומרים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "tahini",
+   "name": "טחינה",
+   "synonyms": [
+    "טחינה גולמית",
+    "סלט טחינה"
+   ],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "שומשום שנטחן לגמרי – רבים מברכים שהכל, ויש שמברכים האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "hummus-spread",
+   "name": "חומוס",
+   "synonyms": [
+    "ממרח חומוס",
+    "צלחת חומוס",
+    "חומוס מסעדה"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "גרגרי חומוס טחונים – לפי הרב עובדיה יוסף האדמה, כי זו דרך אכילתם; יש פוסקים שמברכים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": true
+  },
+  {
+   "id": "guacamole",
+   "name": "גוואקמולי",
+   "synonyms": [
+    "ממרח אבוקדו",
+    "אבוקדו מעוך"
+   ],
+   "category": "spreads",
+   "first": "haetz",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "אבוקדו מעוך הוא דרך רגילה לאכול אבוקדו, והוא ניכר – לכן העץ.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": false
+  },
+  {
+   "id": "matbucha",
+   "name": "מטבוחה",
+   "synonyms": [
+    "סלט מטבוחה",
+    "סלט מרוקאי"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "eggplant-salad",
+   "name": "סלט חצילים",
+   "synonyms": [
+    "באבא גנוש",
+    "חציל במיונז",
+    "חצילים קלויים"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "חציל מעוך או קלוי הוא דרך רגילה לאכול אותו – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": false
+  },
+  {
+   "id": "carrot-salad",
+   "name": "סלט גזר",
+   "synonyms": [
+    "סלט גזר מרוקאי",
+    "גזר מגורר"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "ground-fruit",
+   "why": "גדל מהאדמה על צמח שאינו עץ – לכן בורא פרי האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ג סעיפים א–ב",
+   "doubt": false
+  },
+  {
+   "id": "beet-salad",
+   "name": "סלט סלק",
+   "synonyms": [],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pickled-peppers",
+   "name": "פלפלים קלויים",
+   "synonyms": [
+    "פלפל קלוי",
+    "פלפלים בשמן"
+   ],
+   "category": "spreads",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "schug",
+   "name": "סחוג",
+   "synonyms": [
+    "סחוג ירוק",
+    "סחוג אדום"
+   ],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "סחוג הוא תבלין שבא ללוות מאכל, ולבדו לא אוכלים אותו. כשבא עם מאכל – טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "mayo",
+   "name": "מיונז",
+   "synonyms": [],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "מיונז הוא רוטב שבא ללוות מאכל – טפל לעיקר.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "ketchup",
+   "name": "קטשופ",
+   "synonyms": [
+    "רוטב עגבניות"
+   ],
+   "category": "spreads",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "קטשופ בא ללוות מאכל – טפל לעיקר. אם אוכלים לבדו – שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "veg-soup",
+   "name": "מרק ירקות",
+   "synonyms": [
+    "מרק ירקות עם חתיכות"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "הירקות הם העיקר, והמים שבושלו בהם קיבלו את ברכתם – האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "lentil-soup",
+   "name": "מרק עדשים",
+   "synonyms": [
+    "מרק עדשים כתומות"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "pumpkin-soup",
+   "name": "מרק דלעת",
+   "synonyms": [
+    "מרק כתום",
+    "מרק בטטה",
+    "קרם ירקות"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "מרק ירקות טחון הוא דרך רגילה לאכול ירקות – לכן האדמה.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": false
+  },
+  {
+   "id": "pea-soup",
+   "name": "מרק אפונה",
+   "synonyms": [
+    "מרק אפונה ירוקה"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "crushed",
+   "why": "מרוסק אבל זו הדרך הרגילה לאוכלו – לכן הברכה נשארת.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיף ז; משנה ברורה שם ס\"ק מב",
+   "doubt": false
+  },
+  {
+   "id": "bean-soup",
+   "name": "מרק שעועית",
+   "synonyms": [
+    "מרק שעועית לבנה",
+    "פסוליה"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "minestrone",
+   "name": "מרק מינסטרונה",
+   "synonyms": [
+    "מרק ירקות עם פסטה"
+   ],
+   "category": "cooked",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "five-grains",
+   "why": "אם יש בו פסטה לטעם ולשובע – מזונות על הפסטה. יש אומרים לברך בנפרד גם האדמה על הירקות.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ח סעיפים ב–ג",
+   "doubt": true
+  },
+  {
+   "id": "falafel",
+   "name": "פלאפל",
+   "synonyms": [
+    "כדורי פלאפל"
+   ],
+   "category": "cooked",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "כדורי פלאפל עשויים מחומוס טחון. יש אומרים האדמה ויש אומרים שהכל.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "stuffed-peppers",
+   "name": "פלפלים ממולאים",
+   "synonyms": [
+    "ממולאים",
+    "קישואים ממולאים"
+   ],
+   "category": "cooked",
+   "first": "mezonot",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "במילוי אורז – מזונות על האורז, ויש אומרים לברך האדמה גם על הירק. כדאי לשאול.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "majadra-bulgur",
+   "name": "תבולה",
+   "synonyms": [
+    "טאבולה",
+    "סלט תבולה"
+   ],
+   "category": "cooked",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "safek",
+   "why": "אם הבורגול הוא העיקר – מזונות; אם הירק הוא העיקר – האדמה. כדאי לשאול.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "schnitzel-cornflakes",
+   "name": "שניצל בציפוי קורנפלקס",
+   "synonyms": [],
+   "category": "cooked",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "ikar-tafel",
+   "why": "מברכים על הרכיב העיקרי, והשאר טפל לו.",
+   "source": "שולחן ערוך, אורח חיים, סימן רי\"ב סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "potato-salad",
+   "name": "סלט תפוחי אדמה",
+   "synonyms": [
+    "סלט תפו\"א"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "baked-potato",
+   "name": "תפוח אדמה אפוי",
+   "synonyms": [
+    "תפוחי אדמה אפויים",
+    "תפוחי אדמה בתנור"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "shinui-tzura",
+   "why": "בישול, ייבוש או אפייה לא משנים את הברכה כל עוד המאכל ניכר.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ב סעיפים י–יב; סימן ר\"ה סעיף א",
+   "doubt": false
+  },
+  {
+   "id": "corn-schnitzel",
+   "name": "שניצל תירס",
+   "synonyms": [
+    "שניצל ירקות",
+    "שניצל טבעול"
+   ],
+   "category": "cooked",
+   "first": "shehakol",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "ההרכב משתנה בין יצרנים: אם יש קמח חיטה משמעותי – מזונות; אחרת לרוב שהכל. כדאי לבדוק רכיבים.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  },
+  {
+   "id": "meat-pastry",
+   "name": "פשטידת בשר בבצק",
+   "synonyms": [
+    "פשטידת בשר",
+    "בצק ממולא בשר"
+   ],
+   "category": "cooked",
+   "first": "mezonot",
+   "last": "michya",
+   "rule_id": "pat-habaa",
+   "why": "מאפה שאינו לחם רגיל – מזונות, אבל מי שאוכל ממנו כמות של ארוחה מברך המוציא.",
+   "source": "שולחן ערוך, אורח חיים, סימן קס\"ח סעיפים ו–ח; ילקוט יוסף, הלכות ברכות",
+   "doubt": false
+  },
+  {
+   "id": "veg-pashtida",
+   "name": "פשטידת ירקות",
+   "synonyms": [
+    "פשטידה",
+    "פשטידת ברוקולי",
+    "פשטידת תרד"
+   ],
+   "category": "cooked",
+   "first": "haadama",
+   "last": "nefashot",
+   "rule_id": "safek",
+   "why": "כשיש בה קמח לטעם ולשובע – מזונות; כשהקמח רק לדבק – לפי הירק העיקרי. תלוי במתכון.",
+   "source": "שולחן ערוך, אורח חיים, סימן ר\"ד סעיף יג; סימן ר\"ט סעיף ג",
+   "doubt": true
+  }
+ ]
+}

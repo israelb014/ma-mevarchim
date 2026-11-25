@@ -1,0 +1,186 @@
+name: Build and release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  APP_VERSION: 1.0.${{ github.run_number }}
+  # Android signing – intentionally kept in this file (no secrets needed).
+  KEYSTORE_PASSWORD: MaMevarchim2026
+  KEY_ALIAS: mamevarchim
+  KEY_PASSWORD: MaMevarchim2026
+
+jobs:
+  web:
+    name: Test & build web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Unit tests
+        run: npm test
+      - name: Type check
+        run: npm run typecheck
+      - name: Build site
+        run: npm run build
+      - name: Create bundle.zip and app-version.json
+        run: npm run bundle
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-icon
+          path: build/icon.png
+
+  pages:
+    name: Deploy to GitHub Pages
+    needs: web
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+  android:
+    name: Android APK
+    needs: web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: android-actions/setup-android@v3
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: web
+          path: dist
+      - name: Remove update files from the embedded copy
+        run: rm -f dist/bundle.zip dist/app-version.json
+      - name: Icons from the SVG logo
+        run: |
+          node scripts/gen-icons.mjs
+          npx cap sync android
+          npx capacitor-assets generate --android --iconBackgroundColor '#5B6B2E' --splashBackgroundColor '#FBF6EC' --splashBackgroundColorDark '#FBF6EC'
+      - name: Build signed release APK
+        working-directory: android
+        run: |
+          LEVEL=$(node -p "require('../native-levels.json').android")
+          export ANDROID_VERSION_CODE=$((LEVEL * 100000 + ${{ github.run_number }}))
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+          cp app/build/outputs/apk/release/app-release.apk ../ma-mevarchim.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: ma-mevarchim.apk
+
+  desktop:
+    name: Desktop (${{ matrix.os }})
+    needs: web
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            target: --win portable
+            file: ma-mevarchim.exe
+          - os: ubuntu-latest
+            target: --linux AppImage
+            file: ma-mevarchim.AppImage
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+        working-directory: electron
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v4
+        with:
+          name: web
+          path: electron/app
+      - uses: actions/download-artifact@v4
+        with:
+          name: desktop-icon
+          path: electron
+      - name: Prepare
+        run: |
+          rm -f app/bundle.zip app/app-version.json
+          npm ci
+          npm pkg set version=$APP_VERSION
+          npm pkg set desktopLevel=$(node -p "require('../native-levels.json').desktop") --json
+      - name: Build
+        run: npx electron-builder ${{ matrix.target }} --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.file }}
+          path: electron/dist/${{ matrix.file }}
+
+  release:
+    name: GitHub release
+    needs: [pages, android, desktop]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+          merge-multiple: true
+      - name: Levels
+        id: lv
+        run: |
+          echo "android=$(node -p "require('./native-levels.json').android")" >> $GITHUB_OUTPUT
+          echo "desktop=$(node -p "require('./native-levels.json').desktop")" >> $GITHUB_OUTPUT
+          ls -la out
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.APP_VERSION }}
+          name: מה מברכים ${{ env.APP_VERSION }}
+          make_latest: true
+          body: |
+            גרסה ${{ env.APP_VERSION }}
+
+            - אתר: https://israelb014.github.io/ma-mevarchim/
+            - אנדרואיד: ma-mevarchim.apk
+            - ווינדוס: ma-mevarchim.exe (נייד, בלי התקנה)
+            - לינוקס: ma-mevarchim.AppImage
+
+            <!-- levels: android=${{ steps.lv.outputs.android }} desktop=${{ steps.lv.outputs.desktop }} -->
+          files: |
+            out/ma-mevarchim.apk
+            out/ma-mevarchim.exe
+            out/ma-mevarchim.AppImage
+          fail_on_unmatched_files: true

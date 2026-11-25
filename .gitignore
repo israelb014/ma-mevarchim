@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+electron/app
+electron/dist
+electron/node_modules
+*.log
+.DS_Store
+public/icons
+public/favicon.svg
+assets/*.png
+bundle.zip
